@@ -1,3 +1,7 @@
+## 1.2.4 - February 19, 2013
+
+- Fixed bug that caused crash reports to sometimes not send immediately (they would be resent later)
+
 ## 1.2.3 - January 8, 2013
 
 - Fixed typos in readme
