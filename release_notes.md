@@ -1,6 +1,20 @@
+## 2.1.4
+
+- Consolidate both SDK versions into one which removes all access to `ASIdentifierManager`
+
+## 2.1.3
+
+- Fix bug in 2.1.2-noadid which caused adid to be collected
+
+## 2.1.2
+
+- Fix for bug that caused events to not get sent properly when using the `TFOptionSessionKeepAliveTimeout` option
+- Fix for bug that caused logs that were sent immediately after start session to sometimes not be sent to server
+
 ## 2.1.1
 
-- Remove all access to `ASIdentifierManager`, add UIDevice's `identifierForVendor`
+- Create sdk version that removes all access to `ASIdentifierManager`
+- Add UIDevice's `identifierForVendor`
 
 ## 2.1
 
